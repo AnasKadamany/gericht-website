@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: unset;
+}
+.NavbarLeft p {
+  cursor: pointer;
+}
+.NavbarLeft p:hover {
+  border-bottom: 1px solid rgb(230, 230, 255); /* Adding an underline on hover */
+}
+.NavbarMid a {
+  width: 48px;
+  height: 28px;
+  text-decoration: none;
+  color: unset;
+}
+.NavbarMid p:hover {
+  width: 48px;
+  height: 28px;
+  text-decoration: none;
+  color: unset;
+  color: rgba(255, 255, 255, 0.596);
+}
+.NavbarRight {
+  display: none !important;
+}
+/*  */
+@media (max-width: 800px) {
+  .NavbarMid {
+    display: none !important;
+  }
+  .NavbarLeft {
+    display: none !important;
+  }
+  .SmallPage {
+    display: flex !important;
+    margin-right: 10px !important;
+  }
+}
+/*  */
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: all 0.5s ease-in-out;
+}
+
+.Overlay a {
+  text-decoration: none;
+  color: #dcca87;
+  margin: 10px;
+  font-size: 2rem;
+  font-family: Cormorant;
+  font-weight: bold;
+}

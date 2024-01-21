@@ -1,0 +1,68 @@
+.ProfileContainer {
+  width: 100%;
+  background: url(../../assets/bg.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.RightContainerSmallTitleParagragh {
+  font-family: Cormorant;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29.9px;
+  margin: 0;
+}
+.H1Title_cormorant {
+  font-family: Cormorant;
+  font-weight: 600;
+  line-height: 83.2px;
+  font-size: 64px;
+  color: #dcca87;
+}
+.QuoteWords {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 28px;
+  color: #aaaaaa;
+  margin-bottom: 0;
+  width: 80%;
+}
+.RightContainerDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+}
+.h4Coromorant {
+  font-family: Cormorant;
+  font-weight: 400;
+  color: #dcca87;
+  font-size: 32px;
+  line-height: 41.6px;
+  margin-bottom: 0;
+}
+@media (max-width: 1150px) {
+  .ProfileContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .ChefImg {
+    width: 70% !important;
+  }
+  .RightContainerSmallTitleParagragh {
+    font-size: 33px;
+  }
+  .H1Title_cormorant {
+    font-size: 42px !important;
+  }
+  .RightContainerDiv {
+    width: 100%;
+    padding-left: 2rem;
+  }
+}

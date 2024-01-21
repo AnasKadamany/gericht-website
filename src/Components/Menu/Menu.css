@@ -1,0 +1,86 @@
+.MenuMainDv {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+.MenuContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.MenuParagraph {
+  font-family: Cormorant;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 58.5px;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.MenuData {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+}
+.itemMenu {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.itemMenuHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemMenuHeadDash {
+  width: 90px;
+  height: 1px;
+  background: #dcca87;
+  margin: 0 1rem;
+}
+.itemMenuHeadPrice {
+  isplay: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.p_cormorant {
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 29.9px;
+  font-size: 23px;
+  font-family: Cormorant;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.itemMenuBottom {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+.p__opensans {
+  font-family: Cormorant;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 20px;
+  color: #aaaaaa;
+  text-align: left;
+}
+.MiddleDivMenu {
+  width: 400px;
+  margin: 0 2rem;
+}
+@media (max-width: 1150px) {
+  .MenuContainer {
+    flex-direction: column;
+  }
+  .MenuMainDv {
+    padding: 4rem 0;
+  }
+}

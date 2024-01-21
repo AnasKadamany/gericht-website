@@ -1,0 +1,63 @@
+.DetailsBG {
+  background: url("/src/assets/bg.webp");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%; /* Set explicit width for the whole viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gBgDiv {
+  position: absolute;
+  background: url("/src/assets/G.webp") center center no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.LeftHeaderButton {
+  background-color: #f5efdb;
+  width: 157px;
+  height: 50px;
+  padding: 0.5rem 1.5rem;
+  font-family: Cormorant;
+  font-weight: bold;
+}
+.DetailsData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.KnifeImage {
+  height: 100vh;
+}
+.DetailsLeft {
+  flex: 1 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+  margin: 4rem;
+}
+.DetailsRight {
+  flex: 1 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin: 4rem;
+}
+
+@media (max-width: 1150px) {
+  .DetailsData {
+    flex-direction: column;
+  }
+}
